@@ -14,7 +14,10 @@ html {
 .container {
     display: flex;
     flex-direction: row;
+    padding-top: 100px;
+    /*
     align-items: center;
+    */
     justify-content: center;
     position: fixed;
     border-radius: 10px;
@@ -44,12 +47,16 @@ p,
 button {
     max-width: 300px;
     padding: 10px;
-    line-height: 1.25;
+}
+
+p {
+    line-height: 1.5;
 }
 
 .info_1 {
     font-family: Montserrat, serif;
-    font-size: 10px;
+    font-size: 8px;
+    padding-top: 20px;
     opacity: 60%;
 }
 
@@ -77,19 +84,20 @@ button {
 .new_price {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     color: hsl(158, 36%, 37%);
 }
 
 .old_price {
     font-family: Montserrat, serif;
     opacity: 60%;
+    padding-left: 15px;
     text-decoration: line-through;
 }
 
 button {
     width: 300px;
-    height: 50px;
+    height: 60px;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
     font-weight: bold;
