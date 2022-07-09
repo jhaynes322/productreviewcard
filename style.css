@@ -19,7 +19,8 @@ html {
     align-items: center;
     */
     justify-content: center;
-    position: fixed;
+    /*
+    position: fixed;*/
     border-radius: 10px;
 }
 
@@ -113,6 +114,7 @@ button:hover {
 .attribution {
     font-size: 11px;
     text-align: center;
+    padding-top: 10px;
 }
 
 .attribution a {
