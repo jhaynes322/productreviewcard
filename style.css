@@ -120,3 +120,43 @@ button:hover {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 760px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    img {
+        height: 250px;
+        width: 350px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
+    .product_card {
+        height: 400px;
+        width: 350px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+
+    h1,
+    h2,
+    p,
+    button {
+        max-width: 350px;
+        max-height: 300px;
+    }
+
+    .info_1 {
+        padding: 0;
+    }
+
+    .info_2 {
+        font-size: 22px;
+    }
+
+}
