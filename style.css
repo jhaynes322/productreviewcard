@@ -14,10 +14,8 @@ html {
 .container {
     display: flex;
     flex-direction: row;
-    padding-top: 125px;
-    /*
+    min-height: 100vh;
     align-items: center;
-    */
     justify-content: center;
     /*
     position: fixed;*/
@@ -114,7 +112,6 @@ button:hover {
 .attribution {
     font-size: 11px;
     text-align: center;
-    padding-top: 10px;
 }
 
 .attribution a {
